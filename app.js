@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', ['ui.router']);
 
-myApp.config(function ($stateProvider, $urlRouterProvider) {
+myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
     $stateProvider
         .state('home', {
@@ -8,10 +8,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: './pages/main.html',
             controller: 'mainCtrl'
         })
-        .state('first',{
+        .state('first', {
             url: '/first',
             templateUrl: './pages/first.html',
             controller: 'firstCtrl'
+<<<<<<< HEAD
             // views: {
             //     'more': {
             //         templateUrl: 'more.html',
@@ -26,6 +27,32 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             //         controller: function($scope){ button }
             //     }
             // }
+=======
+        })
+        .state('first.more', {
+            url: '/more',
+            views: {
+                'childView': {
+                    templateUrl: './pages/more.html'
+                }
+            }
+        })
+        .state('first.contacts', {
+            url: '/contacts',
+            views: {
+                'childView': {
+                    templateUrl: './pages/contacts.html'
+                }
+            }
+        })
+        .state('first.address', {
+            url: '/address',
+            views: {
+                'childView': {
+                    templateUrl: './pages/address.html'
+                }
+            }
+>>>>>>> 67e95847b7e73df897d4faa0f1a7da716a89a392
         })
         .state('second', {
             url: '/second',
@@ -44,6 +71,8 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         });
 
     $urlRouterProvider.otherwise('/');
+
+    $locationProvider.html5Mode(true);
 
 });
 
