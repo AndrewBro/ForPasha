@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="button">
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+    <base href="/test/">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.min.js"
+            type="text/javascript"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
+</head>
+<body>
+
+<div>
+    <h1>First</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, deserunt esse et nulla obcaecati
+        perspiciatis quae quasi quibusdam recusandae ut.</p>
+
+    <ul>
+        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum fuga porro. Aliquid magnam quas
+            quibusdam temporibus? Ab aliquid, animi assumenda beatae consequuntur, ducimus iusto laboriosam nisi provident
+            repellat sit?
+        </li>
+        <li>Consequuntur distinctio dolorem doloremque ea et fugiat illum ipsam ipsum iusto magni minima nisi nobis pariatur
+            quam quasi, qui quibusdam quis recusandae sed similique sint totam velit, veniam vitae voluptatibus?
+        </li>
+        <li>Adipisci animi cumque debitis doloribus dolorum ea earum eius, ex hic magni nam quidem quisquam reprehenderit
+            repudiandae sed unde velit. Consequatur cum dolorem doloremque iure modi, nostrum sapiente suscipit tempore?
+        </li>
+        <li>Consequatur harum laudantium quidem tenetur unde! Doloremque facere ipsam tempore tenetur veniam! Alias,
+            eligendi ipsum? A explicabo magnam molestiae qui saepe sequi totam veniam! Accusantium delectus ducimus illum
+            molestias qui.
+        </li>
+        <li>Accusantium animi blanditiis, cum dolorem, enim facere ipsam itaque iure nobis odit omnis quibusdam quo
+            recusandae reiciendis temporibus vel vitae, voluptatum! Alias harum labore laborum molestiae nesciunt quod
+            ratione velit?
+        </li>
+    </ul>
+
+    <button class="btn" ui-sref="more">learn more</button>
+    <button class="btn btn-primary" ui-sref="contacts">Contacts</button>
+    <button class="btn" ui-sref="address">Address</button>
+    <div ui-view="buttons"></div>
+</div>
+
+</body>
+</html>

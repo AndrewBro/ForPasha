@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <base href="/">
-    <!--<link href="./pages/main.html">-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <base href="/test/">
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-route.min.js"></script>
-    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.min.js"
+            type="text/javascript"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+
 </head>
 <body>
-<div class="container">
-    <div ng-view>
 
-    </div>
+    <div class="container text-center app">
+        <div class="row">
+            <div class="col-lg-12">
 
+                <a ui-sref="home">main</a>
+                <a ui-sref="first">first</a>
+                <a ui-sref="second">second</a>
+                <a ui-sref="third">third</a>
+                <a ui-sref="fourth">fourth</a>
 
-        <div class="col-lg-12">
-            <h1>Lorem ipsum.</h1>
-            <h4>Hey! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consectetur enim eos eveniet iure
-                obcaecati placeat, praesentium, quae quidem quis sed temporibus veniam voluptatibus? Est praesentium
-                recusandae rem ut vero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, alias
-                dignissimos doloremque doloribus, est, eum facere fuga hic id ipsum laboriosam maiores minus nemo
-                nulla quibusdam similiqueunde velit veritatis!</p>
+                <div ui-view></div>
+
+            </div>
         </div>
     </div>
-</div>
+
 </body>
 </html>
