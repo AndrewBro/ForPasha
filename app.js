@@ -8,22 +8,24 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: './pages/main.html',
             controller: 'mainCtrl'
         })
-        .state('first',{
+        .state('first', {
             url: '/first',
             templateUrl: './pages/first.html',
-            controller: 'firstCtrl',
+            controller: 'firstCtrl'
+        })
+        .state('first.childOne', {
+            url: '/childOne',
             views: {
-                'more': {
-                    templateUrl: 'more.html',
-                    controller: function($scope){ button }
-                },
-                'contacts': {
-                    templateUrl: 'contacts.html',
-                    controller: function($scope){ button }
-                },
-                'address': {
-                    templateUrl: 'address.html',
-                    controller: function($scope){ button }
+                'childView': {
+                    templateUrl: './pages/more.html'
+                }
+            }
+        })
+        .state('first.childTwo', {
+            url: '/childTwo',
+            views: {
+                'childView': {
+                    templateUrl: './pages/address.html'
                 }
             }
         })
