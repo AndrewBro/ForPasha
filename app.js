@@ -13,16 +13,24 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: './pages/first.html',
             controller: 'firstCtrl'
         })
-        .state('first.childOne', {
-            url: '/childOne',
+        .state('first.more', {
+            url: '/more',
             views: {
                 'childView': {
                     templateUrl: './pages/more.html'
                 }
             }
         })
-        .state('first.childTwo', {
-            url: '/childTwo',
+        .state('first.contacts', {
+            url: '/contacts',
+            views: {
+                'childView': {
+                    templateUrl: './pages/contacts.html'
+                }
+            }
+        })
+        .state('first.address', {
+            url: '/address',
             views: {
                 'childView': {
                     templateUrl: './pages/address.html'

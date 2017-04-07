@@ -26,13 +26,9 @@
         </li>
     </ul>
 
-    <button class="btn" ui-sref="more">learn more</button>
-    <button class="btn btn-primary" ui-sref="contacts">Contacts</button>
-    <button class="btn" ui-sref="address">Address</button>
+    <a ui-sref="first.more" ui-sref-active="btn-primary" class="btn">learn more</a>
+    <a ui-sref="first.contacts" ui-sref-active="btn-primary" class="btn">Contacts</a>
+    <a ui-sref="first.address" ui-sref-active="btn-primary" class="btn">Address</a>
 
-    <br>
-    <br>
-    <button class="btn" ui-sref="first.childOne">Child #1</button>
-    <button class="btn" ui-sref="first.childTwo">Child #2</button>
     <div ui-view="childView"></div>
 </div>
