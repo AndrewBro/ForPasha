@@ -11,21 +11,21 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         .state('first',{
             url: '/first',
             templateUrl: './pages/first.html',
-            controller: 'firstCtrl',
-            views: {
-                'more': {
-                    templateUrl: 'more.html',
-                    controller: function($scope){ button }
-                },
-                'contacts': {
-                    templateUrl: 'contacts.html',
-                    controller: function($scope){ button }
-                },
-                'address': {
-                    templateUrl: 'address.html',
-                    controller: function($scope){ button }
-                }
-            }
+            controller: 'firstCtrl'
+            // views: {
+            //     'more': {
+            //         templateUrl: 'more.html',
+            //         controller: function($scope){ button }
+            //     },
+            //     'contacts': {
+            //         templateUrl: 'contacts.html',
+            //         controller: function($scope){ button }
+            //     },
+            //     'address': {
+            //         templateUrl: 'address.html',
+            //         controller: function($scope){ button }
+            //     }
+            // }
         })
         .state('second', {
             url: '/second',
@@ -86,7 +86,7 @@ myApp.controller('fourthCtrl', function ($scope) {
 //     $urlRouterProvider.otherwise('/');
 //
 // });
-
+//
 // button.controller('moreCtrl', function ($scope) {
 // });
 // button.controller('contactsCtrl', function ($scope) {
