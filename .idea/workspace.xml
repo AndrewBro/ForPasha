@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="914ab09c-cfda-4605-99f2-e9a3ab0d287d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/address.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/button/address.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/button/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/button/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/button/more.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/first.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/fourth.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/more.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/third.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newPage.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app2.js" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.iml" afterPath="$PROJECT_DIR$/.idea/test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/main.html" afterPath="$PROJECT_DIR$/pages/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/second.html" afterPath="$PROJECT_DIR$/pages/second.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -286,7 +265,7 @@
       <workItem from="1491406069020" duration="1654000" />
       <workItem from="1491419554595" duration="3815000" />
       <workItem from="1491462253306" duration="17458000" />
-      <workItem from="1491548243989" duration="11683000" />
+      <workItem from="1491548243989" duration="11895000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1491420436753</created>
@@ -299,7 +278,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42062000" />
+    <option name="totallyTimeSpent" value="42274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1364" height="714" extended-state="4" />
