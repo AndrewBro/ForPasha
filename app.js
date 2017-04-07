@@ -1,6 +1,6 @@
 var myApp = angular.module('myApp', ['ui.router']);
 
-myApp.config(function ($stateProvider, $urlRouterProvider) {
+myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
     $stateProvider
         .state('home', {
@@ -54,6 +54,8 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         });
 
     $urlRouterProvider.otherwise('/');
+
+    $locationProvider.html5Mode(true);
 
 });
 
