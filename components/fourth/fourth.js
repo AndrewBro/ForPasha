@@ -1,3 +1,20 @@
-/**
- * Created by dens on 10.04.17.
- */
+
+myApp.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+
+    $stateProvider
+
+        .state('fourth', {
+            url: '/fourth',
+            templateUrl: '../fourth/fourth.html',
+            controller: 'fourthCtrl'
+        });
+
+    $urlRouterProvider.otherwise('/');
+
+    $locationProvider.html5Mode(true);
+
+});
+
+myApp.controller('fourthCtrl', function ($scope) {
+});
+
